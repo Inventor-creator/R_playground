@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Ga+Maamli&display=swap');
+
+/* for defined shit in html and not custom classes you can use it directly  */
+h1{
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 2px 4px rgb(0, 204, 255);
+
+}
+
+body{
+            
+    background-image: url("Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:darken;
+    background-attachment:fixed;
+    
+   margin: 0px;
+   
+}
+
+main{
+    margin: 10px;
+}
+
+/* for undefiend shit like divs you have to use '.' before class name */
+
+.line_break{
+    background-color: azure;
+    height: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.UwU_parent{
+    
+    height: auto;
+    width: auto;
+    display: flex;
+    
+    place-content: center;
+   
+
+}
+
+
+
+.UwU{
+    background: transparent;
+    height: fit-content;
+   
+    display: flex;
+    place-content: center;
+    position: relative; 
+    right: 125px;
+    top: 30px;
+}
+
+.tenor-gif-embed{
+    max-width: 200px;
+    display: block;
+    margin-left: 45%;
+    
+    animation: rotate 2s
+  
+
+}
+
+@keyframes slideleft {
+    from{transform: translateX(50vw);}
+    
+}
+@keyframes rotate {
+    to{transform: rotateX(360deg);}
+}
+.UwU:hover .nigga{
+    display: block;
+}
+
+
+
+.heading{
+    color: rgb(255, 255, 255);
+
+    font: bold;
+    font-size: 70;
+    
+    
+    text-align: center;
+
+
+
+
+
+}
+
+.button_parent{
+    
+    height: fit-content;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.label{
+    color: rgb(255, 255, 255);
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 500;
+    font-stretch: 25%;
+
+
+}
+
+
+.nav a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    
+
+}
+
+.nav a:hover{
+    background-color: rgba(0, 255, 255, 0.596) ;
+}
+
+.nav a:link{
+    color: rgb(255, 0, 0);
+}
+.nav a:visited{
+    color: yellow;
+}
+
+.selector{
+    display: block;
+    width: fit-content;
+   
+}
+
+.selector button{
+    background-color: rgba(128, 128, 128, 0.8);
+    display: block;
+    width: fit-content;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.selections{
+    display: none;
+    width: fit-content;
+    background-color: black;
+    position: absolute;
+    color: white;
+    box-shadow: 3px 3px 3px rgba(102, 102, 102, 0.478) ;
+    border: 1px black;
+    margin-top: 3px;
+}
+
+.selections a{
+    display: block ;
+    min-width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    text-decoration: none   ;
+   
+}
+.selections a:hover{
+    background-color: rgba(127, 255, 212, 0.351);
+
+}
+
+.selections a:link{
+    color: rgb(179, 255, 47);
+}
+.selections a:visited{
+    color: brown;
+}
+
+.selector:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.selector:hover .selections{
+    display: block;
+}
+
+@keyframes glow {
+    75%{box-shadow: gold 3px 3px 4px ;}
+}
+
+/* to define stuff from ids in the css sheet you have to use '#' before the id tag  */
